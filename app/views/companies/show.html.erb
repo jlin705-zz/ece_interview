@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+  <h2>Company:</h2>
+<h1>
+  <%= @company.company %>
+</h1>
+
+<h2>Questions:</h2>
+<div id='questions'>
+<% @company.questions.each do |question| %>
+<%= div_for question do %>
+<p>
+	<strong>Posted <%= time_ago_in_words(question.created_at) %></strong><br>
+	<%= h(question.question)%>
+</p>
+	<%end%>
+<%end%>
+</div>
+
+<%= form_for([@company, Question.new], remote: :true) do |f| %>
+<p> <%= f.label :question, "New Interview Question" %><br />
+	<%= f.text_area :question %>
+</p>
+<p><%= f.submit "Add new question" %>
+</p>
+<%end%>
+
+
+<%= link_to 'Edit', edit_company_path(@company) %> |
+<%= link_to 'Back', companies_path %>
