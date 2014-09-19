@@ -8459,3 +8459,660 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-19 02:22:25
 
 
 Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-19 02:22:25 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 02:28:27 -0400
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 108ms (Views: 107.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 02:28:27 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:27 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:27 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-19 02:28:28 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 116ms (Views: 115.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:02 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 107ms (Views: 106.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-19 02:29:58 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 114ms (Views: 113.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:20 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 117ms (Views: 116.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-19 02:30:38 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-19 02:32:08 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 02:33:34 -0400
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 73ms (Views: 72.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 02:33:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:34 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:34 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:34 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:34 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:34 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:34 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:34 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:35 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:35 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:35 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:35 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:35 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:35 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:35 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:35 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:35 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:35 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-19 02:33:35 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 74ms (Views: 72.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:25 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 79ms (Views: 78.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-19 02:34:41 -0400
