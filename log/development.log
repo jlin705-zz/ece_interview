@@ -5578,3 +5578,583 @@ Processing by CompaniesController#show as HTML
   [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?[0m  [["company_id", 2]]
   Rendered companies/show.html.erb within layouts/application (2.4ms)
 Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies" for 127.0.0.1 at 2014-09-18 23:21:18 -0400
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 62ms (Views: 61.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2014-09-18 23:21:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-18 23:21:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-18 23:21:19 -0400
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-09-18 23:21:19 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-18 23:21:19 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-18 23:21:19 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-18 23:21:19 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-18 23:21:19 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-18 23:21:19 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-18 23:21:19 -0400
+
+
+Started GET "/companies/2" for 127.0.0.1 at 2014-09-18 23:25:31 -0400
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?  [["company_id", 2]]
+  Rendered companies/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies/2" for 127.0.0.1 at 2014-09-18 23:25:33 -0400
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?  [["company_id", 2]]
+  Rendered companies/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 69ms (Views: 67.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2014-09-18 23:25:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-18 23:25:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-18 23:25:33 -0400
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-09-18 23:25:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-18 23:25:33 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-18 23:25:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-18 23:25:33 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-18 23:25:33 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-18 23:25:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-18 23:25:33 -0400
+
+
+Started GET "/companies/2" for 127.0.0.1 at 2014-09-18 23:25:44 -0400
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?  [["company_id", 2]]
+  Rendered companies/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2014-09-18 23:25:44 -0400
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-09-18 23:25:44 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-18 23:25:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-18 23:25:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-18 23:25:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-18 23:25:44 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-18 23:25:44 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-18 23:25:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-18 23:25:44 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-18 23:25:44 -0400
+
+
+Started GET "/companies/2" for 127.0.0.1 at 2014-09-18 23:26:33 -0400
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?  [["company_id", 2]]
+  Rendered companies/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2014-09-18 23:26:33 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-18 23:26:33 -0400
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-09-18 23:26:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-18 23:26:33 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:33 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:33 -0400
+
+
+Started GET "/companies/2" for 127.0.0.1 at 2014-09-18 23:26:35 -0400
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?  [["company_id", 2]]
+  Rendered companies/show.html.erb within layouts/application (37.1ms)
+Completed 200 OK in 64ms (Views: 63.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-18 23:26:35 -0400
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2014-09-18 23:26:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:35 -0400
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-09-18 23:26:35 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-18 23:26:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:35 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:35 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:35 -0400
+
+
+Started GET "/companies/2" for 127.0.0.1 at 2014-09-18 23:26:48 -0400
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?  [["company_id", 2]]
+  Rendered companies/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2014-09-18 23:26:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:48 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-18 23:26:48 -0400
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-09-18 23:26:48 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-18 23:26:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:48 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:48 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-18 23:26:48 -0400
+
+
+Started GET "/companies/2" for 127.0.0.1 at 2014-09-18 23:34:24 -0400
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?  [["company_id", 2]]
+  Rendered companies/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 67ms (Views: 65.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2014-09-18 23:34:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:25 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-18 23:34:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:25 -0400
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-09-18 23:34:25 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-18 23:34:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:25 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:25 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:25 -0400
+
+
+Started POST "/companies/2/questions" for 127.0.0.1 at 2014-09-18 23:34:40 -0400
+Processing by QuestionsController#create as JS
+  Parameters: {"utf8"=>"✓", "question"=>{"question"=>"fjdklfaskkkkklasdfljlakdjfljasdlfkjlsadjflasjdfljldfjlasjdfjasldjfljasdfljaslfjlasdjfljsadfkjalsdfjlasjdfljadfljldjflajsdlfjasldjflasjdfljdsfljasldfjkljflk"}, "commit"=>"Add New Question", "company_id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "questions" ("company_id", "created_at", "question", "updated_at") VALUES (?, ?, ?, ?)[0m  [["company_id", 2], ["created_at", "2014-09-19 03:34:40.050446"], ["question", "fjdklfaskkkkklasdfljlakdjfljasdlfkjlsadjflasjdfljldfjlasjdfjasldjfljasdfljaslfjlasdjfljsadfkjalsdfjlasjdfljadfljldjflajsdlfjasldjflasjdfljdsfljasldfjkljflk"], ["updated_at", "2014-09-19 03:34:40.050446"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  Rendered questions/_question.html.erb (0.3ms)
+  Rendered questions/create.js.erb (0.9ms)
+Completed 200 OK in 7ms (Views: 2.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/companies/2" for 127.0.0.1 at 2014-09-18 23:34:51 -0400
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?  [["company_id", 2]]
+  Rendered companies/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-18 23:34:51 -0400
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-09-18 23:34:51 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-18 23:34:51 -0400
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2014-09-18 23:34:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:51 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:51 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:51 -0400
+
+
+Started GET "/companies/2" for 127.0.0.1 at 2014-09-18 23:34:55 -0400
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?  [["company_id", 2]]
+  Rendered companies/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 64ms (Views: 63.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2014-09-18 23:34:56 -0400
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-09-18 23:34:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-18 23:34:56 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-18 23:34:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:56 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:56 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-18 23:34:56 -0400
+
+
+Started POST "/companies/2/questions" for 127.0.0.1 at 2014-09-18 23:34:59 -0400
+Processing by QuestionsController#create as JS
+  Parameters: {"utf8"=>"✓", "question"=>{"question"=>""}, "commit"=>"Add New Question", "company_id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "questions" ("company_id", "created_at", "question", "updated_at") VALUES (?, ?, ?, ?)[0m  [["company_id", 2], ["created_at", "2014-09-19 03:34:59.127487"], ["question", ""], ["updated_at", "2014-09-19 03:34:59.127487"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  Rendered questions/_question.html.erb (0.3ms)
+  Rendered questions/create.js.erb (0.9ms)
+Completed 200 OK in 7ms (Views: 2.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/companies/2" for 127.0.0.1 at 2014-09-18 23:35:01 -0400
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?  [["company_id", 2]]
+  Rendered companies/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2014-09-18 23:35:01 -0400
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-09-18 23:35:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-18 23:35:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-18 23:35:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-18 23:35:01 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-18 23:35:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-18 23:35:01 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-18 23:35:01 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-18 23:35:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-18 23:35:01 -0400
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2014-09-18 23:35:23 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-18 23:35:23 -0400
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-09-18 23:35:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-18 23:35:23 -0400
+
+
+Started GET "/companies/2" for 127.0.0.1 at 2014-09-19 00:05:17 -0400
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?  [["company_id", 2]]
+  Rendered companies/show.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 67ms (Views: 65.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2014-09-19 00:05:17 -0400
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-09-19 00:05:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 00:05:17 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-19 00:05:17 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 00:05:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-19 00:05:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-19 00:05:17 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-19 00:05:17 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-19 00:05:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-19 00:05:17 -0400
+
+
+Started GET "/companies/2" for 127.0.0.1 at 2014-09-19 00:06:02 -0400
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?  [["company_id", 2]]
+  Rendered companies/show.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `time_in_words' for #<#<Class:0x007ffb43465d70>:0x007ffb435e5678>):
+    11: 	<%= div_for question do %>
+    12: 	<p>
+    13: 		<h2><%= h(question.question)%></h2><br>
+    14: 		Posted <%= time_in_words(question.created_at) %>
+    15: 	</p>
+    16: 		<%end%>
+    17: 	<%end%>
+  app/views/companies/show.html.erb:14:in `block (2 levels) in _app_views_companies_show_html_erb___2370538320813946575_70358571908760'
+  app/views/companies/show.html.erb:11:in `block in _app_views_companies_show_html_erb___2370538320813946575_70358571908760'
+  app/views/companies/show.html.erb:10:in `_app_views_companies_show_html_erb___2370538320813946575_70358571908760'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.1ms)
+
+
+Started GET "/companies/2" for 127.0.0.1 at 2014-09-19 00:06:15 -0400
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?  [["company_id", 2]]
+  Rendered companies/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 64ms (Views: 63.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2014-09-19 00:06:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 00:06:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 00:06:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-19 00:06:15 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-19 00:06:15 -0400
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-09-19 00:06:15 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-19 00:06:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-19 00:06:15 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-19 00:06:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-19 00:06:15 -0400
+
+
+Started GET "/companies/2" for 127.0.0.1 at 2014-09-19 00:06:41 -0400
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions"  WHERE "questions"."company_id" = ?  [["company_id", 2]]
+  Rendered companies/show.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2014-09-19 00:06:42 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-19 00:06:42 -0400
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-09-19 00:06:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 00:06:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 00:06:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-19 00:06:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-19 00:06:42 -0400
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2014-09-19 00:06:42 -0400
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-09-19 00:06:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-19 00:06:42 -0400
