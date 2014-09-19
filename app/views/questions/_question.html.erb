@@ -1,6 +1,7 @@
 <%= div_for question do %>
-<p>
-	<strong>Posted <%= time_ago_in_words(question.created_at) %></strong><br>
-	<%= h(question.question)%>
-</p>
-	<%end%>
+	
+	<ul>
+		<h2><%= h(question.question)%></h2><br>
+		Posted <%= time_ago_in_words(question.created_at) %>
+	</ul>
+		<%end%>
