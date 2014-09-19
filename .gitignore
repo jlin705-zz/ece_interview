@@ -2,4 +2,4 @@
 tmp/cache
 
 #ignore log
-log
+log/
