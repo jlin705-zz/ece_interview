@@ -1,30 +1,33 @@
 <p id="notice"><%= notice %></p>
-
-  <h3>Company:</h3>
 <h1>
   <%= @company.company %>
 </h1>
 
 <h3>Questions:</h3>
-<div id='questions' style="width:500px;">
+
+<div id='questions', class="container-fluid" >
+<table class="table table-striped">
 	<% @company.questions.each do |question| %>
 	<%= div_for question do %>
-	<p>
+	
+	<ul>
 		<h2><%= h(question.question)%></h2><br>
 		Posted <%= time_ago_in_words(question.created_at) %>
-	</p>
+	</ul>
 		<%end%>
 	<%end%>
+	</table>
 </div>
+
 
 <%= form_for([@company, Question.new], remote: :true) do |f| %>
 <p> <%= f.label :question, "New Interview Question" %><br />
-	<%= f.text_area :question %><br />
+	<%= f.text_area :question ,class: "form-control"%><br />
 </p>
-<p><%= f.submit "Add New Question" %>
+<p><%= f.submit "Add New Question",class: 'btn btn-mini btn-info' %>
 </p>
 <%end%>
 
 
-<%= link_to 'Edit', edit_company_path(@company) %> |
-<%= link_to 'Back', companies_path %>
+<%= link_to 'Edit', edit_company_path(@company),class: 'btn btn-mini btn-primary' %> |
+<%= link_to 'Back', companies_path, class: 'btn btn-mini btn-primary' %>

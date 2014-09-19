@@ -53,3 +53,4 @@ group :production do
 end
 
 gem 'bootstrap-sass', '~> 2.3.1.0'
+gem 'devise'
