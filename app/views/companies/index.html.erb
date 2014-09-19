@@ -9,10 +9,9 @@
   <tbody>
     <% @companies.each do |company| %>
       <tr>
-        <td><h1><%= company.company %></h1></td>
-        <td><%= link_to 'Show', company %></td>
+        <td><h1><%= link_to company.company, company %></h1></td>
         <td><%= link_to 'Edit', edit_company_path(company) %></td>
-        <td><%= link_to 'Destroy', company, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', company, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
