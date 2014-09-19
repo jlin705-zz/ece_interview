@@ -11,10 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140918185445) do
+ActiveRecord::Schema.define(version: 20140919043223) do
 
   create_table "companies", force: true do |t|
-    t.integer  "index"
     t.string   "company"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -25,6 +24,7 @@ ActiveRecord::Schema.define(version: 20140918185445) do
     t.text     "question"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "author"
   end
 
 end

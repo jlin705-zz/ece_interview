@@ -19,7 +19,7 @@
 
 <%= form_for([@company, Question.new], remote: :true) do |f| %>
 <p> <%= f.label :question, "New Interview Question" %><br />
-	<%= f.text_area :question %>
+	<%= f.text_area :question %><br />
 </p>
 <p><%= f.submit "Add New Question" %>
 </p>
