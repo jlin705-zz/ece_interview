@@ -24,7 +24,7 @@
       </thead>
 
       <tbody>
-        <% @companies.each do |company| %>
+        <% @companies.sort_by{|m| m.company.downcase}.each do |company| %>
           
           <tr>
             <td><h3><%= company.created_at.strftime("%m/%d/%Y") %></h3></td>
