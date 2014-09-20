@@ -9,26 +9,18 @@
 	<%= render :partial => @company.questions.reverse %>
 </div>
 
-<div class="row">
-<div class="control-group">
 <%= form_for([@company, Question.new], remote: :true) do |f| %>
 <p> <%= f.label :question, "New Interview Question", class: 'control-label' %><br />
-<div class='controls'>
 	<%= f.text_area :question, :cols => "30", :rows => "10"%><br />
-	</div>
 </p>
 <p> <%= f.label :author, "author", class: 'control-label' %><br />
-<div class='controls'>
 	<%= f.text_field :author%><br />
-	</div>
 </p>
-</div>
- <div class="controls">
+<p>
 <%= f.submit "Add New Question",class: 'btn btn-info' %>
- </div>
-<%end%>
-</div>
+</p><%end%>
 <br>
 <br>
-<%= link_to 'Edit', edit_company_path(@company),class: 'btn btn-mini btn-primary' %> |
+<p class="pull-middle"><%= link_to 'Edit', edit_company_path(@company),class: 'btn btn-mini btn-primary' %> |
 <%= link_to 'Back', companies_path, class: 'btn btn-mini btn-primary' %>
+</p>
