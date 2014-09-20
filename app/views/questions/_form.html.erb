@@ -11,15 +11,21 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :company_id %><br>
+  <div class="control-group">
+    <%= f.label :company_id, class: 'control-label' %><br>
+    <div class="controls">
     <%= f.number_field :company_id %>
   </div>
-  <div class="field">
+  </div>
+  <div class="control-group">
     <%= f.label :question %><br>
+     <div class="controls">
     <%= f.text_area :question %>
+    </div>
   </div>
   <div class="actions">
-    <%= f.submit %>
+   <div class="controls">
+    <%= f.submit 'Submit', class: 'btn btn-default' %>
+    </div>
   </div>
 <% end %>

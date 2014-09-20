@@ -1,4 +1,5 @@
-<%= form_for(@company) do |f| %>
+<div class="row">
+<%= form_for @company, html: {class: 'form-horizontal'} do |f| %>
   <% if @company.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@company.errors.count, "error") %> prohibited this company from being saved:</h2>
@@ -11,11 +12,16 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :company %><br>
+  <div class="control-group">
+    <%= f.label :company, class: 'control-label' %><br>
+    <div class="controls">
     <%= f.text_field :company %>
+    </div>
   </div>
-  <div class="actions">
-    <%= f.submit %>
+  <div class="control-group">
+  <div class="controls">
+    <%= f.submit 'Submit', class: 'btn btn-default' %>
+    </div>
   </div>
 <% end %>
+</div>
