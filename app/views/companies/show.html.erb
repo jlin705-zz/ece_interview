@@ -11,13 +11,8 @@
 	<%= div_for question do %>
 	
 	<ul>
-	<% if (current_user.email) %>
-	<% @person = current_user.name %>
-	<% else %>
-	<% @person = 'An' %>
-	<% end %>
 		<h2><%= h(question.question)%></h2><br>
-		Posted <%= time_ago_in_words(question.created_at) %> ago, by <%= @person %>
+		Posted <%= time_ago_in_words(question.created_at) %> ago
 	</ul>
 		<%end%>
 	<%end%>
