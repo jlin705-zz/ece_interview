@@ -5,19 +5,8 @@
 
 <h3>Questions:</h3>
 
-<div id='questions', class="container-fluid" >
-<table class="table table-striped">
-	<% @company.questions.each do |question| %>
-<%= div_for question do %>
-	
-	<ul>
-		<h2><%= h(question.question)%></h2><br>
-		Posted by <%if(question.author!="")%><%= h(question.author) %>
-		<%else%><%='Anonymity'%><%end%>
-	</ul>
-		<%end%>
-	<%end%>
-	</table>
+<div id='questions'>
+	<%= render :partial => @company.questions.reverse %>
 </div>
 
 <div class="row">
