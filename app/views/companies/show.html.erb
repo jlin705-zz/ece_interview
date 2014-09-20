@@ -8,11 +8,12 @@
 <div id='questions', class="container-fluid" >
 <table class="table table-striped">
 	<% @company.questions.each do |question| %>
-	<%= div_for question do %>
+<%= div_for question do %>
 	
 	<ul>
 		<h2><%= h(question.question)%></h2><br>
-		Posted <%= time_ago_in_words(question.created_at) %> ago
+		Posted by <%if(question.author!="")%><%= h(question.author) %>
+		<%else%><%='Anonymity'%><%end%>
 	</ul>
 		<%end%>
 	<%end%>
@@ -25,6 +26,11 @@
 <p> <%= f.label :question, "New Interview Question", class: 'control-label' %><br />
 <div class='controls'>
 	<%= f.text_area :question, :cols => "30", :rows => "10"%><br />
+	</div>
+</p>
+<p> <%= f.label :author, "author", class: 'control-label' %><br />
+<div class='controls'>
+	<%= f.text_field :author%><br />
 	</div>
 </p>
 </div>

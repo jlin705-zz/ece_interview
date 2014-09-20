@@ -2,6 +2,7 @@
 	
 	<ul>
 		<h2><%= h(question.question)%></h2><br>
-		Posted <%= time_ago_in_words(question.created_at) %>
+		Posted by <%if(question.author!="")%><%= h(question.author) %>
+		<%else%><%='Anonymity'%><%end%>
 	</ul>
 		<%end%>
