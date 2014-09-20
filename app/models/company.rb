@@ -3,4 +3,6 @@ class Company < ActiveRecord::Base
 	def self.search(query)
 	  where("company like ?", "%#{query}%") 
 	end
+	validates_uniqueness_of :company
+	validates_presence_of :company
 end
