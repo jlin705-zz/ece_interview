@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  devise_for :users
+  get 'users/index'
+
+  devise_for :users, :controllers => { :registrations => "registrations" }, :path_prefix => 'd'
+  devise_for :admins, :controllers => { :registrations => "registrations" } 
   get 'welcome/index'
 
   get 'welcome/about'
@@ -14,10 +17,12 @@ Rails.application.routes.draw do
     resources :questions
   end
 
-  root to: 'companies#index'
+  root to: 'welcome#index'
 
+  match '/users',   to: 'users#index',   via: 'get'
+  match '/users/:id',     to: 'users#show',       via: 'get'
 
-
+  resources :users, :only =>[:show]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

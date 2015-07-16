@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
-  		<title>ECE面经</title>
+  		<title>Interviews</title>
   		<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   		<%= csrf_meta_tags %>
 	</head>
 
 	<body>
-		<a href="http://www.ece.cmu.edu/">
-		<img src="http://varma.ece.cmu.edu/GM-CMU-AD-CRL/logo-ece.jpg" height="142" width="342">
-		</a>
+		
 		<div class="container">
+			<%= render 'layouts/messages' %>
+			<a href="http://www.ece.cmu.edu/">
+				<img src="http://varma.ece.cmu.edu/GM-CMU-AD-CRL/logo-ece.jpg" height="142" width="342">
+			</a>
 			<ul class="nav nav-tabs">
 				<li><%= link_to "Home", root_path %></li>
+				<li><%= link_to "Interviews", companies_path %></li>
 				<li><%= link_to "About Us", welcome_about_path %></li>
 				<li><%= link_to "Contact", welcome_contact_path %></li>
 				<li><%= link_to "FAQs", welcome_faq_path %></li>
@@ -27,7 +30,7 @@
 
 			</ul>
 
-			<% if flash[:notice] %>
+<!-- 			<% if flash[:notice] %>
 				<div class="alert alert-success">
 					<button type="button" class="close" data-dismiss="alert">&times;</button>
 					<%= flash[:notice]%>
@@ -42,7 +45,7 @@
 					<button type="button" class="close" data-dismiss="alert">&times;</button>
 					<%= flash[:alert]%>
 				</div>
-			<%end%>
+			<%end%> -->
 				
 			<%= yield %>
 		</div>
